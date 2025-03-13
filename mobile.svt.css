@@ -1,0 +1,72 @@
+#theme1{opacity: 0;}
+#theme2{opacity: 0;}
+#theme3{opacity: 0;}
+#theme4{opacity: 0;}
+#theme5{opacity: 0;}
+#theme6{opacity: 0;}
+
+#all{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(184, 21, 21);
+    margin: 0px;    
+}
+.menu{
+    position: relative;
+    height: 100%;
+    background-color: royalblue;
+    border: hidden;
+}
+    /*quand couleur décidé changer sa par des pgn*/
+.bar1, .bar2, .bar3 {
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: #333;
+    margin: 15% 10%;
+    transition: 0.4s;
+}
+.change .bar1 {transform: translate(0, 275%) rotate(-45deg);}   
+.change .bar2 {opacity: 0;}
+.change .bar3 {transform: translate(0, -275%) rotate(45deg);}
+
+.div0{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(78, 78, 78);
+}
+.div1{
+    position: absolute;
+    opacity: 0;
+    background-color: rgb(78, 78, 78);
+    width: 50%;
+    height: 30%;
+    transition: 1s;
+}
+.para{
+    position: absolute;
+    background-color: aqua;
+    margin-left: 80%;
+}
+.bt{
+    width: 100%;
+    height: 15.6%;
+    margin-top: 1%;
+    text-align: left;
+    border: hidden;
+    color: white;
+    background-color: rgb(189, 173, 31);
+}
+.btt{
+    width: 100%;
+    height: 15.6%;
+    margin-top: 1%;
+    text-align: left;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: hidden;
+    color: white;
+    background: linear-gradient(to right, rgba(0, 182, 15, 0.5), rgba(0, 128, 128, 0.25));
+    transition: all 0.5s ease;
+}
