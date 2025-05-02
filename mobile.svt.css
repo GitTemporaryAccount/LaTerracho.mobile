@@ -39,6 +39,7 @@
 .div1{
     position: absolute;
     background-color: none;
+    opacity: 0;
     width: 50%;
     height: 40%;
     transition: 1s;
