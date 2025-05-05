@@ -2,9 +2,9 @@ function modif(b,t){
     var lb=document.getElementsByClassName("btt");
     var lt=document.getElementsByClassName("para");
     for(var i=0;i<lb.length;i++){lb[i].className="bt";}
-    for(var i=0;i<lt.length;i++){lt[i].style.opacity=0;}
+    for(var i=0;i<lt.length;i++){lt[i].style.zIndex=-1;}
     b.className="btt";
-    t.style.opacity=1;
+    t.style.zIndex=1;
 }
 function toggleMenu(x,y) {
     x.classList.toggle("change");
