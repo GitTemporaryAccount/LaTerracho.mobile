@@ -4,7 +4,7 @@ function modif(b,t){
     for(var i=0;i<lb.length;i++){lb[i].className="bt";}
     for(var i=0;i<lt.length;i++){lt[i].style.zIndex=-1;}
     b.className="btt";
-    t.style.zIndex=1;
+    t.style.zIndex=0;
 }
 function toggleMenu(x,y) {
     x.classList.toggle("change");
