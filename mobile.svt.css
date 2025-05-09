@@ -64,7 +64,7 @@
     transition: all 0.5s ease;
 }
 
-#theme0{z-index: -1;}
+#theme0{z-index: 0;}
 #theme1{z-index: -1;}
 #theme2{z-index: -1;}
 #theme3{z-index: -1;}
