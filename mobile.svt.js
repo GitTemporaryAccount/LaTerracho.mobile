@@ -10,9 +10,9 @@ function modif(b,t){
 function toggleMenu(x,y) {
     x.classList.toggle("change");
     y.style.opacity=1 - y.style.opacity;
-    var buttons=y.getElementsByClassName("bt");
-    for (var i=0;i<buttons.length;i++) {buttons[i].disabled = y.style.opacity == 0;}
     y.style.zIndex=1 - y.style.zIndex;
+    var buttons=y.getElementsByClassName("bt");
+    for (var i=0;i<buttons.length;i++){buttons[i].disabled = y.style.opacity == 0;}
 }
 window.addEventListener('load', function() {
     var menu = document.querySelector('.menu');
