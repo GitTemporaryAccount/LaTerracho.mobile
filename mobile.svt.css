@@ -66,7 +66,12 @@ body{
     background-color: rgb(0, 182, 15);
     transition: all 0.5s ease;
 }
+audio{
 
+    border: 2px solid rgb(0, 182, 15);
+    border-radius: 100px;
+    background-color: rgb(0, 182, 15);
+}
 
 #theme0{z-index: 0;opacity: 1;}
 #theme1{z-index: -1;opacity: 0;}
