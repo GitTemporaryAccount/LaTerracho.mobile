@@ -12,6 +12,7 @@ function toggleMenu(x,y) {
     y.style.opacity=1 - y.style.opacity;
     var buttons=y.getElementsByClassName("bt");
     for (var i=0;i<buttons.length;i++) {buttons[i].disabled = y.style.opacity == 0;}
+    y.style.zIndex=1 - y.style.zIndex;
 }
 window.addEventListener('load', function() {
     var menu = document.querySelector('.menu');
