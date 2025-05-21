@@ -7,14 +7,14 @@ function modif(b,t){
     t.style.zIndex=0;
     t.style.opacity=1;
 }
-function toggleMenu(x,y) {
+function toggleMenu(x,y){
     x.classList.toggle("change");
     y.style.opacity=1 - y.style.opacity;
     y.style.zIndex=1 - y.style.zIndex;
     var buttons=y.getElementsByClassName("bt");
     for (var i=0;i<buttons.length;i++){buttons[i].disabled = y.style.opacity == 0;}
 }
-window.addEventListener('load', function() {
+window.addEventListener('load', function(){
     var menu = document.querySelector('.menu');
     var height = menu.offsetHeight;
     menu.style.width = height + 'px';
